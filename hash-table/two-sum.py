@@ -10,4 +10,4 @@ class Solution(object):
             complement = target - num
             if complement in comp_map:
                 return [comp_map[complement], i]
-            comp_map[complement] = i
+            comp_map[num] = i
