@@ -7,5 +7,5 @@ class Solution(object):
         """
         for i in nums:
             for j in nums:
-                if i + j = target:
+                if i + j == target:
                     return [i, j]
